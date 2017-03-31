@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.26228.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexDockerAppSample", "FlexDockerAppSample\FlexDockerAppSample.csproj", "{1AB37889-BE80-4DD6-A197-963085239A1D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy", "Deploy", "{9DD09678-61D2-4AF0-BEA2-BFCB493CD53D}"
+	ProjectSection(SolutionItems) = preProject
+		app.yaml = app.yaml
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
